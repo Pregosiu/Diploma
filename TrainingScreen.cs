@@ -271,7 +271,7 @@ public class TrainingScreen : VisualElement
             }
 
 
-            //sets settings for trainings and slots them into calendar, idk why are left and top this way but it works
+            //sets settings for trainings and slots them into calendar
             SetTrainingLabelSettings(trainingLabel);
 
             Vector2 slotPos = _dateSlot[slotPosition].parent.LocalToWorld(_dateSlot[slotPosition].layout.position);
